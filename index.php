@@ -21,7 +21,7 @@
 
         <!--Navigation-->
         <div>
-            <nav class="navbar sticky-top navbar-light">
+            <nav class="navbar navbar-light">
                 <a class="navbar-brand" href="../index.php">
                     <img src="assets/icon_lg.png" alt="">
                     Pustak
@@ -32,7 +32,7 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-item nav-link active" href="index.php">Home <span class="sr-only">(current)</span></a>
                         <a class="nav-item nav-link" href="shopping/books.php">Books</a>
                         <a class="nav-item nav-link" href="shopping/ebooks.php">EBooks</a>
                         <a class="nav-item nav-link" href="profile/profile.php">Profile</a>
@@ -102,7 +102,7 @@
                        <img src="assets/book.jpg" class="card-img-top" alt="...">
                        <div class="card-body">
                            <h5 class="card-title">Card title</h5>
-                           <a href="#" class="btn btn-primary">Go somewhere</a>
+                           <a href="#" class="btn btn-primary btn-block">Buy</a>
                        </div>
                        </div>';
                     }

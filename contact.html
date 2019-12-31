@@ -32,12 +32,11 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a class="nav-item nav-link" href="../index.php">Home</a>
-                        <a class="nav-item nav-link" href="books.php">Books</a>
-                        <a class="nav-item nav-link active" href="ebooks.php">Ebooks</a>
-                        <a class="nav-item nav-link" href="../profile/profile.php">Profile</a>
+                        <a class="nav-item nav-link active" href="../index.php">Home</a>
+                        <a class="nav-item nav-link" href="../shopping/books.php">Books</a>
+                        <a class="nav-item nav-link" href="../shopping/ebooks.php">Ebooks</a>
                         <a class="nav-item nav-link" href="../contact.html">Contact Us</a>
-                        <a class="nav-item btn btn-success" href="profile/signup.html">Signup</a>
+                        <a class="nav-item btn btn-success" href="signout.php">Sign out</a>
                     </div>
                 </div>
             </nav>
@@ -46,44 +45,7 @@
 
     <!--Products Content-->
     <div class="container-lg">
-        <div class="row">
-            <!--Side Nav-->
-            <div class="col-3">
-                <div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">CBSE</li>
-                        <li class="list-group-item">ICSE</li>
-                        <li class="list-group-item">ICS</li>
-                        <li class="list-group-item">WB Board</li>
-                        <li class="list-group-item">Engineering</li>
-                        <li class="list-group-item">Medical</li>
-                        <li class="list-group-item">IIT JEE</li>
-                        <li class="list-group-item">Commerce</li>
-                        <li class="list-group-item">Arts</li>
-                        <li class="list-group-item">GATE</li>
-                        <li class="list-group-item">CAT</li>
-                        <li class="list-group-item">Aptitude</li>
-                    </ul>
-                </div>
-            </div>
-
-            <!--Product view-->
-            <div class="col-9">
-                <div class="row row-cols-4">
-                    <?php
-                      for($i=0;$i<20;$i++){
-                       echo '<div class="card border-light m-4" style="width: 10rem;">
-                       <img src="../assets/book.jpg" class="card-img-top" alt="...">
-                       <div class="card-body">
-                           <h5 class="card-title">Card title</h5>
-                           <a href="#" class="btn btn-primary">Go somewhere</a>
-                       </div>
-                       </div>';
-                    }
-                    ?>
-                </div>
-            </div>
-        </div>
+        
     </div>
 
     <!--Footer-->

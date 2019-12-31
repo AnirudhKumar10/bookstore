@@ -21,7 +21,7 @@
 
         <!--Navigation-->
         <div>
-            <nav class="navbar sticky-top navbar-light">
+            <nav class="navbar navbar-light">
                 <a class="navbar-brand" href="../index.php">
                     <img src="../assets/icon_lg.png" alt="">
                     Pustak
@@ -32,10 +32,11 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-                        <a class="nav-item nav-link" href="shopping/books.php">Books</a>
+                        <a class="nav-item nav-link" href="../index.php">Home </a>
+                        <a class="nav-item nav-link active" href="books.php">Books</a>
+                        <a class="nav-item nav-link" href="ebooks.php">Ebooks</a>
                         <a class="nav-item nav-link" href="../profile/profile.php">Profile</a>
-                        <a class="nav-item nav-link" href="contact.html">Contact Us</a>
+                        <a class="nav-item nav-link" href="../contact.html">Contact Us</a>
                         <a class="nav-item btn btn-success" href="profile/signup.html">Signup</a>
                     </div>
                 </div>
